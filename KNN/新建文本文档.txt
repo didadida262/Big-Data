@@ -1,0 +1,1 @@
+I have learned everything about KNN's code,and it is the same with the book's code, but i have some problems,that, i don't know why it can't work normally???
