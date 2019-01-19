@@ -30,3 +30,4 @@ while True:
         tcpCliSock.send(header.encode())
         tcpCliSock.close()
 tcpSerSock.close()
+#原先一直没注意到的一个问题，就是返回客户端的数据都要进行格式的转换，否则会报错。即:outputdata.encode()
